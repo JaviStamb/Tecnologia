@@ -1,0 +1,202 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    text-align: center;
+}
+
+body {
+    background-image: url(Imagenes/pexels-mike-1171084.jpg);
+    background-size: cover;
+    color: black;
+    font-family: 'Oswald', sans-serif;
+    width: 90%;
+    margin: auto;
+    font-size: 20px;
+}
+
+a {
+    color: white ;
+    text-decoration: none;
+  }
+  
+ul {
+    list-style: none;
+  }
+    
+.nav-main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    padding: 20px 0;
+    font-size: 20px;
+  }
+
+.nav-brand {
+    width: 50px;
+  }
+  
+.nav-main ul {
+    display: flex;
+  }
+  
+.nav-main ul li {
+    padding: 10px;
+    font-size: 25px;
+  }
+  
+.nav-main ul li a {
+    padding: 2px;
+    margin: 20px;
+  }
+  
+.nav-main ul li a:hover {
+    border-bottom: 2px solid #fff;
+  }
+  
+.nav-main ul.nav-menu {
+    flex: 1;
+    margin-left: 20px;
+  }
+
+img {
+    width: 100px;
+    display:block;
+    margin:auto;
+  }
+
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.flex-container div {
+    margin: 20px;
+    padding: 10px;
+}
+
+.flex-container div a:hover {
+    color: white;
+}
+
+.footer {
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    color: black;
+}
+
+/*Nosotros*/
+
+.nostros {
+  background: url(imagenes/fondo\ somos.jpg) no-repeat center center/cover;
+  color: white;
+  padding: 25px ;
+  width: 90%;
+}
+
+/*Equipos*/
+
+.mantenimiento {
+  text-align: center;
+  margin-top: 150px;
+}
+
+.fas  {
+  font-size: 50px;
+  padding-bottom: 20px;
+  color: red;
+}
+
+/*posiciones*/
+
+.tablas {
+  text-align: center;
+  margin: 10px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.posiciones {
+  border-spacing: 6px;
+  background-color: #f5f6fa;
+  margin: 20px;
+}
+
+.posiciones img {
+  width: 30px;
+  display: inline-flex;
+  float: left;
+}
+
+/*Planteles*/
+
+.arqueros {
+  text-align: center;
+  font-size: 20px;
+}
+
+.arqueros ul li {
+  display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 10px 20px;
+}
+
+.arqueros ul li:hover {
+  border-bottom: 2px solid;
+}
+.defensores {
+  text-align: center;
+}
+
+.defensores ul li {
+  display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 10px 20px;
+}
+
+.defensores ul li:hover {
+  border-bottom: 2px solid;
+}
+
+.mediocampistas {
+  text-align: center;
+}
+
+.mediocampistas ul li {
+  display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 20px 20px;
+}
+
+.mediocampistas ul li:hover {
+  border-bottom: 2px solid;
+}
+
+.delanteros {
+  text-align: center;
+}
+
+.delanteros ul li {
+  display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 20px 20px;
+}
+
+.delanteros ul li:hover {
+  border-bottom: 2px solid;
+}
